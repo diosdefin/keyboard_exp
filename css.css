@@ -2,17 +2,18 @@
 padding: 0;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 box-sizing: border-box;}
-body{
+.body_0{
     max-width: 1200px;
     margin: auto;
-    -webkit-user-select: none;  /* Chrome, Safari, Opera */
-    -moz-user-select: none;     /* Firefox */
-    -ms-user-select: none;      /* IE/Edge */
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;     
     user-select: none; 
     background-color: rgb(150, 149, 149);}
 :root{
     --index: calc(1vw + 1vh);}
-header{
+.header_0{
+    z-index: 1;
     color: rgb(201, 199, 86);
     text-shadow: 0 0 5px rgb(127, 115, 11);
     width: calc(var(--index)*47);
@@ -27,7 +28,7 @@ header{
     border-radius: 12px;
     margin-top: 7px;
     box-shadow:  0 0 5px rgb(127, 115, 11);}
-main{
+ .main_0{
     background-color: rgb(133, 133, 133);
     width: calc(var(--index)*47);
     height:calc(var(--index)*14.5);
@@ -75,3 +76,50 @@ box-shadow: inset 0 0 5px rgb(0, 0, 0);}
 .keyboard-tab:active{
     background-color: rgb(161, 233, 233);
     box-shadow: inset 0 0 5px rgb(0, 0, 0);}
+.ik_0{
+        background-color: rgba(74, 47, 227, 0.613);
+        color: rgb(201, 199, 86);
+        display: flex;
+        position: absolute;
+        z-index: 10;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        font-weight: 800;
+        box-shadow:  0 0 5px rgb(0, 204, 255);
+        border-radius: 10px;
+        opacity: 0.7;
+        top: 0;
+        right: 0;
+        margin-top: 20px;
+        margin-right: 15%;}
+/*  */
+.body_1{
+    background-color: rgb(239, 255, 252);
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;     
+    user-select: none; }
+.header_1{
+    color: rgb(42, 56, 212);
+    text-shadow: 0 0 5px rgb(255, 235, 55);
+    background-color: rgb(208, 247, 252);
+    box-shadow: inset 0 0 5px rgb(242, 0, 255);}
+.main_1{
+            background-color: rgb(208, 247, 252);
+            box-shadow: inset 0 0 5px rgb(242, 0, 255);}
+.ik_1{
+background-color: rgb(208, 247, 252);
+color: rgb(70, 88, 255);
+text-shadow: 0 0 5px rgb(0, 238, 255);
+box-shadow: inset 0 0 5px rgb(242, 0, 255);}
+.keyboard-key_1{
+    background-color: rgb(134, 224, 224);}
+.keyboard-tab_1{
+    background-color: rgb(134, 224, 224);}
+.keyboard-key_1:active{
+    background-color: rgb(227, 161, 233);}
+.keyboard-tab_1:active{
+    background-color: rgb(227, 161, 233);}
